@@ -1,0 +1,272 @@
+@import "https://fonts.googleapis.com/css?family=Lato:400,700";
+
+* {
+    margin: 0;
+    padding-left: 0;
+    box-sizing: border-box;
+} 
+
+body{
+    font-family: 'Lato', sans-serif;
+    background: linear-gradient(180deg,#2B3E4F,#223343,#EAEDED);
+}
+
+hr{
+    margin:auto;
+    width:90%;
+}
+
+/*                       HEADER                    */
+
+#header{
+    position: fixed;
+    width:100%;
+    z-index: 1;
+    display: table-row;
+    background-color: #232F3E;
+    overflow: auto;
+    white-space: nowrap;
+}
+
+#header-img{
+    float: left;
+    z-index: 1;
+    height: 80px;
+    width: 80px;
+    padding: 10px 10px 10px 10px;
+}
+
+#aSmile{
+    color:#CEDAE6;
+    padding: 20px 0 0 10px;
+    font-size: 30px;
+    float:left;
+}
+
+#search{
+    padding: 20px 0 0 25%;
+    height: 20px;
+}
+
+#search-bar{
+    width: 500px;
+    height: 40px;
+    padding-left:10px;
+    border-radius: 7px;
+    font-size: 20px;
+}
+
+#search-btn{
+    font-size: 20px;
+    height: 40px;
+    width: 40px;
+    padding-left: 5px;
+    border-radius: 7px;
+    background-color: rgb(245, 178, 90);
+}
+
+#search-btn:hover{
+    background-color: #F3A847;
+    cursor: pointer;
+}
+
+#nav-li{
+    float: right;
+    padding-top: 10px;
+    list-style-type: none;
+    font-size:20px;
+}
+
+.nav-link{
+    color: #CEDAE6;
+    text-decoration: none;
+    padding: 0 30px 0 20px;
+}
+
+
+/*                        SIGNIN                     */
+
+#signin{
+    text-align: center;
+    padding: 100px 0 30px 0;
+}
+
+#greet1{
+    color: #CEDAE6;
+    font-size:40px;
+    padding-right:180px;
+}
+
+#greet2{
+    color:#CEDAE6;
+    padding: 0 0 10px 180px;
+}
+
+#form{
+    padding-bottom: 5px;
+}
+
+#email{
+    padding-left:10px;
+    width: 250px;
+    height: 30px;
+    font-size: 15px;
+    border-radius: 7px;
+}
+
+#submit{
+    width:60px;
+    height:30px;
+    padding-left: 4px;
+    border-radius: 7px;
+    background: linear-gradient(180deg,#FFD872,#E6A400);
+}
+
+#submit:hover{
+    cursor: pointer;
+}
+
+#signup {
+    color:#CEDAE6;
+}
+
+#signup-link {
+    color:rgb(255, 255, 106);
+    text-decoration: none;
+}
+
+/*                           PRODUCT                         */
+
+#product{
+    padding-left:10px;
+}
+
+#product-header{
+    font-size:35px;
+    text-align: center;
+    color: #CEDAE6;
+    padding: 20px 0 20px 0;
+}
+
+.ProductHeading{
+    font-size:32px;
+    text-align: center;
+    color: #CEDAE6;
+    padding: 20px 0 20px 0;
+    border-radius: 10px;
+}
+
+.products{
+    font-size: 32px;
+}
+
+@media all and (max-width: 600px){
+    .products{
+        padding-top: 20px;
+    }
+}
+
+#product-div{
+    padding-top:10px;
+    display: table;
+    background-color: #CEDAE6;
+    margin: auto;
+    width:92%;
+    height: 500px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.pricing{
+    display:table-cell;
+}
+
+@media all and (max-width: 600px){
+    .pricing{
+        display: inline;
+    }
+}
+
+#product-img{
+    width: 320px;
+    height: 350px;
+    border-radius: 7px;
+    padding: 0 5px 20px 5px;
+}
+
+.earlier-price{
+    position: relative;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.earlier-price:before {
+    position: absolute;
+    content: '';
+    left: 0;
+    top: 45%;
+    right: 0;
+    border-top: 1px solid;
+    border-color: inherit;
+    -webkit-transform: skewY(-10deg);
+    -moz-transform: skewY(-10deg);
+    transform: skewY(-10deg);
+}
+
+.btn{
+    margin: auto;
+    text-align: center;
+    padding-left: 10px;
+    height: 35px;
+    width: 90px;
+    border-radius: 7px;
+}
+
+/*                    HOW-IT-WORKS                   */
+
+#how-id{
+    text-align: center;
+    color:white;
+    font-size: 32px;
+    padding: 20px 0 20px 0;
+}
+
+#video{
+    display: block;
+    margin: auto;
+    padding: 20px 0 20px 0;
+    height: 450px;
+    width: 600px;
+}
+
+@media all and (max-width: 600px){
+    #video{
+        height:300px;
+        width: 400px;
+    }
+}
+
+footer{
+    display: inline-block;
+    background-color: #131A22;
+    width: 100%;
+    height: 70px;
+}
+
+.footer-li{
+    list-style-type: none;
+    float:right;
+    padding: 20px 20px 20px 20px;
+    font-size: 20px;
+}
+
+@media all and (max-width: 600px){
+    .footer-li{
+        font-size:10px;
+    }
+}
+
+.footer-a{
+    text-decoration: none;
+    color: #CEDAE6;
+}
