@@ -89,14 +89,10 @@ h3 {
 form {
   font: 18px/1.4 "Helvetica Neue", Helvetica, Arial, sans-serif;
   width: 100%;
-  margin-right: 20px;
-  margin-left: 20px;
+  margin: auto;
 }
 
 #buttons {
-  position: relative;
-}
-#reset {
-  position: absolute;
-  right: 0;
+  margin: auto;
+  margin-bottom: 10px;
 }
