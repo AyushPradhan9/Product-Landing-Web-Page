@@ -15,6 +15,7 @@ Responsive product landing web page similiar to Amazon's home page.
 ![](img/screenshots/Product-landing3.jpg)
 ![](img/screenshots/Product-landing4.jpg)
 ![](img/screenshots/Product-landing5.jpg)
+![](img/screenshots/Signup.jpg)
 
 ## Made using:
 - HTML
@@ -23,4 +24,3 @@ Responsive product landing web page similiar to Amazon's home page.
 ## Credits
 - Embeded youtube video: [HaKuNa MaTaTa](https://www.youtube.com/channel/UCLySDxJ5IHqJJOIwuE8Db1Q)
 - Product pics: [freepik](https://www.freepik.com/)
-- Logo: [View license](https://creativecommons.org/licenses/by/3.0/)
